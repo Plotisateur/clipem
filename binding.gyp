@@ -16,6 +16,8 @@
         ['OS=="win"', {
           "msvs_settings": {
             "VCCLCompilerTool": {
+              'Optimization': 3,
+              'FavorSizeOrSpeed': 1,
               "ExceptionHandling": 1
             }
           }
