@@ -1,6 +1,6 @@
 {
     "name": "clipem",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A Native NodeJS Clipboard API",
     "license": "MIT",
     "main": "index.js",
@@ -10,8 +10,8 @@
         "email": "plotisateur@gmail.com"
     },
     "scripts": {
-    	"preinstall": "npm i node-addon-api",
-    	"install": "node-gyp configure build",
+        "preinstall": "npm i node-addon-api",
+        "install": "node-gyp configure build",
         "build": "node-gyp rebuild",
         "clean": "node-gyp clean"
     },
