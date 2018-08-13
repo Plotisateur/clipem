@@ -18,9 +18,9 @@
         "npm": ">=4"
     },
     "dependencies": {
-        "node-gyp": "^3.7.0"
+        "node-addon-api": "^1.2.0"
     },
     "devDependencies": {
-        "node-addon-api": "^1.2.0"
+        "node-gyp": "^3.7.0"
     }
 }
