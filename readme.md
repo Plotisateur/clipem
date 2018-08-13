@@ -25,7 +25,7 @@ npm i --save clipem
 ## Usage
 
 ```
-var clipem = require("clipem")
+const clipem = require("clipem")
 ```
 
 
