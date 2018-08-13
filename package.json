@@ -10,6 +10,8 @@
         "email": "plotisateur@gmail.com"
     },
     "scripts": {
+    	"preinstall": "npm i node-addon-api",
+    	"install": "node-gyp configure build",
         "build": "node-gyp rebuild",
         "clean": "node-gyp clean"
     },
