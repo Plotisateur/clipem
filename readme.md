@@ -19,13 +19,13 @@ Note that you will have a warning about N-API in version < 10, you can disable i
 ## Installation
 
 ```
-npm i --save clipit
+npm i --save clipem
 ```
 
 ## Usage
 
 ```
-var clipit = require("clipit")
+var clipem = require("clipem")
 ```
 
 
@@ -33,22 +33,22 @@ var clipit = require("clipit")
 // Copying
 
 
-clipit.copy('Hello, this is a native copy !', () => {
+clipem.copy('Hello, this is a native copy !', () => {
 	// Do something when it has been copied
 })
 // Synchronous way
-clipit.copySync('Hello, this is a native copy !')
+clipem.copySync('Hello, this is a native copy !')
 ```
 
 ```
 // Pasting
 
-clipit.paste((err, res) => {
+clipem.paste((err, res) => {
 	// The pasted text is in the `res` parameter
 	console.log(res)
 })
 // Synchronous way
-let pasted = clipit.pasteSync()
+let pasted = clipem.pasteSync()
 ```
 
 ## Support
