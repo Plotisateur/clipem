@@ -49,6 +49,7 @@ clipem.paste((err, res) => {
 })
 // Synchronous way
 let pasted = clipem.pasteSync()
+console.log(pasted)
 ```
 
 ## Support
